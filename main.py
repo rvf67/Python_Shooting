@@ -1,5 +1,5 @@
 #2020810059 
-#
+#이태주
 import pygame
 import sys
 import random
