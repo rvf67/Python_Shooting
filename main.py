@@ -76,7 +76,7 @@ def pyGame():
   clock = pygame.time.Clock()
 
 def runGame():
-  global gamePad , clock, player, shooter,obstacle,boom,ally,gunSound,itemSound,screamSound,crushSound
+  global gamePad , clock, player, shooter,obstacle,boom,ally,gunSound,itemSound,screamSound,crushSound,gameOverSound
   #각종 개채들 설정
   obstacleSize=obstacle.get_rect().size
   obstacleRow=obstacleSize[0]
