@@ -67,7 +67,7 @@ def pyGame():
   obstacle=pygame.image.load('obstacle.png')
   boom=pygame.image.load('boom.png')
   gameOverSound=pygame.mixer.Sound('gameover.wav')
-  crushSound=pygame.mixer.Sound('crush.wav')
+  explosionSound=pygame.mixer.Sound('explosion.wav')
   gunSound=pygame.mixer.Sound('gun.wav')
   itemSound=pygame.mixer.Sound('imem.wav')
   screamSound=pygame.mixer.Sound('scream.wav')
