@@ -69,7 +69,7 @@ def pyGame():
   gameOverSound=pygame.mixer.Sound('gameover.wav')
   crushSound=pygame.mixer.Sound('explosion.wav')
   gunSound=pygame.mixer.Sound('gun.wav')
-  itemSound=pygame.mixer.Sound('imem.wav')
+  itemSound=pygame.mixer.Sound('item.wav')
   screamSound=pygame.mixer.Sound('scream.wav')
   pygame.mixer.music.load('bgm.mp3')
   pygame.mixer.music.play(-1)
